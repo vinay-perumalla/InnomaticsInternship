@@ -1,0 +1,18 @@
+{
+    "version" : 2,
+      "name" : "Flashly",
+      "builds" : [
+        {
+          "src" : "Budjet Tracker.html",
+          "use" : "@vercel/node"
+        }
+      ],
+      "routes" : [
+        {
+          "src" : "/(.*)",
+          "dest" : "/"
+        }
+      ]
+    
+}
+      
