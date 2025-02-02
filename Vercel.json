@@ -3,7 +3,7 @@
       "name" : "Flashly",
       "builds" : [
         {
-          "src" : "Budjet Tracker.html",
+          "src" : "BudgetTracker.html",
           "use" : "@vercel/node"
         }
       ],
