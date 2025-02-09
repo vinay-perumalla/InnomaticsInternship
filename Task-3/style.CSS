@@ -1,0 +1,196 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff3e0; /* Light orange background */
+    color: #333;
+}
+
+header {
+    background-color: #ff9800; /* Orange header background */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+nav button {
+    background-color: #ffe0b2; /* Light orange nav button */
+    color: #bf360c; /* Dark orange text */
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+nav button:hover {
+    background-color: #ffcc80; /* Slightly darker orange on hover */
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.problem-card {
+    background-color: #ffe0b2; /* Light orange card background */
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ffcc80; /* Slightly darker orange border */
+}
+
+.problem-card h2 {
+    color: #bf360c; /* Dark orange heading text */
+    margin-top: 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Styles for Discount & Shipping info in Online Shopping */
+.discount-info {
+    background-color: #ffecb3; /* Very light orange background for info box */
+    border: 1px solid #ffcc80;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.discount-info h3 {
+    color: #bf360c;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.discount-info ul {
+    padding-left: 20px;
+    list-style-type: disc;
+    color: #d84315;
+}
+
+/* Styles for Order Section */
+.order-section {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.order-section label {
+    display: block;
+    margin-bottom: 8px;
+    color: #bf360c;
+    text-align: left;
+}
+
+.order-section input[type="number"] {
+    padding: 10px;
+    border: 1px solid #ffcc80;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+}
+
+.order-section button {
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+    align-self: center;
+}
+
+.order-section button:hover {
+    background-color: #f57c00;
+}
+
+/* Styles for Calculation Results */
+.calculation-results {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ffcc80;
+    border-radius: 4px;
+    background-color: #ffecb3;
+}
+
+.calculation-results p {
+    margin: 8px 0;
+    font-weight: bold;
+    color: #bf360c;
+}
+
+.calculation-results span {
+    font-weight: normal;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.input-group label {
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+    margin-right: 15px;
+    color: #bf360c;
+}
+
+.input-group input,
+.input-group select,
+.input-group textarea {
+    padding: 10px;
+    border: 1px solid #ffcc80;
+    border-radius: 4px;
+    flex-grow: 1;
+    font-size: 1rem;
+}
+
+.problem-card button {
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.problem-card button:hover {
+    background-color: #f57c00;
+}
+
+.result {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ffcc80;
+    border-radius: 4px;
+    background-color: #ffecb3;
+    color: #bf360c;
+    word-wrap: break-word;
+}
